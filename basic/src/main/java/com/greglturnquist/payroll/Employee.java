@@ -15,14 +15,16 @@
  */
 package com.greglturnquist.payroll;
 
+import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import lombok.Data;
-
 /**
  * @author Greg Turnquist
+ * https://spring.io/guides/tutorials/react-and-spring-data-rest/
+ * https://github.com/spring-guides/tut-react-and-spring-data-rest/
  */
 // tag::code[]
 @Data
